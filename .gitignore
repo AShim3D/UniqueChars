@@ -1,0 +1,14 @@
+Build/*
+
+# ignoring pidb, they are just code completion caching data according to:
+# http://stackoverflow.com/questions/1022111/what-are-monodevelops-pidb-files
+*.pidb
+*.userprefs
+
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
